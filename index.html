@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Dough | Freshly Baked</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<header>
+    <a href="index.html" class="logo">🍞 Daily Dough</a>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="#products">Our Products</a>
+        <a href="about.html">About Us</a>
+        <a href="careers.html">Careers</a>
+        <a href="news.html">News</a>
+        <a href="#cart">Cart (<span id="cart-count">0</span>)</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="hero-content">
+        <p class="eyebrow">FRESH FROM OUR OVEN</p>
+        <h1>Freshly Baked,<br>Made with Love.</h1>
+        <p>Delicious breads and sweet treats for your everyday cravings.</p>
+        <a href="#products" class="shop-button">Shop Now ↓</a>
+    </div>
+</section>
+
+<section class="products-section" id="products">
+    <p class="eyebrow">MADE FRESH DAILY</p>
+    <h2>Our Bestsellers</h2>
+    <p class="section-description">Discover your new favorite treats.</p>
+    <div class="product-grid" id="product-list"></div>
+</section>
+
+<section class="cart-section" id="cart">
+    <h2>🛒 Your Shopping Cart</h2>
+    <div id="cart-items"></div>
+
+    <div class="cart-summary">
+        <p>Total Items: <span id="total-items">0</span></p>
+        <h3>Total: <span id="total-price">₱0.00</span></h3>
+        <button id="checkout-button" onclick="checkout()" disabled>
+            Proceed to Checkout
+        </button>
+    </div>
+</section>
+
+<section class="home-about">
+    <img
+        src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=900&q=80"
+        alt="Fresh bakery bread"
+    >
+    <div>
+        <p class="eyebrow">A LITTLE ABOUT US</p>
+        <h2>Baked Fresh, Shared with Love</h2>
+        <p>
+            We love bringing delicious bread and pastries to your table.
+            Learn more about our bakery, our team, and our latest updates.
+        </p>
+        <a href="about.html" class="shop-button">Discover Our Story</a>
+    </div>
+</section>
+
+<footer>
+    <h3>🍞 Daily Dough</h3>
+    <p>Freshly baked happiness, every single day.</p>
+    <div class="footer-links">
+        <a href="about.html">About Us</a>
+        <a href="careers.html">Careers</a>
+        <a href="news.html">News</a>
+    </div>
+    <p>© 2026 Daily Dough. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
